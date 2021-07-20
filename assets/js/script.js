@@ -39,5 +39,4 @@ elementoBtn.addEventListener('click', () =>{
         elementoFrase.innerText = 'Homer normal!'
         elementoBtn.value = 'primeiro'
     }
-
 })
