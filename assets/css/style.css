@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url("./img/simpsons.png");
+}
+
+body header{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #000;    
+}
+
+body section p{
+    font-size: 2rem;
+    text-align: justify;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+body section button{
+    border: 1px solid #000000;
+    background-color: #011270;
+    color: rgb(255, 251, 0);
+    padding: 1rem;
+    font-size: 1.2vw;
+    font-weight: 600;
+    border-radius: .5rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .6s ease-out;
+}
+
+body section button:hover{
+    background-color: rgb(255, 251, 0);
+    color: #011270;
+    transform: scale(1.2);
+    }
+
+body section h3{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+
+body section img{
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
